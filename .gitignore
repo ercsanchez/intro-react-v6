@@ -1,6 +1,23 @@
 *.eslintcache
 node_modules/
 
+# something parcel produces
+.cache/
+
+# build files from module bundler
+dist/
+
+.env
+
+# for mac
+.DS_Store
+
+# for testing
+coverage/
+
+# vscode config
+.vscode/
+
 # create-react-app default .gitignore file
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
