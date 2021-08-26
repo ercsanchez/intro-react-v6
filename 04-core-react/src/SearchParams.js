@@ -3,10 +3,6 @@ import { useState } from "react";
 const SearchParams = () => {
   const [location, setLocation] = useState("Seattle, WA");
 
-  if (true) {
-    const [animal, setAnimal] = useState("dog");
-  }
-
   return (
     <div className="search-params">
       <form>
