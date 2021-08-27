@@ -12,6 +12,7 @@
     "react/react-in-jsx-scope": 0 // babel implements the newer version so no need
   },
   "plugins": ["react", "import", "jsx-a11y"], // use installed plugins
+  "parser": "@babel/eslint-parser", // tells eslint to run code through babel using our .babelrc before linting
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module",
