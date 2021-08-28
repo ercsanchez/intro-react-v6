@@ -16,7 +16,8 @@
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module",
-    "ecmaFeatures": { "jsx": true }
+    "ecmaFeatures": { "jsx": true },
+    "requireConfigFile": false // correct solution
   },
   "env": {
     "es6": true,
